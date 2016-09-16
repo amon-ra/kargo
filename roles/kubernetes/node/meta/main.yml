@@ -1,5 +1,5 @@
 ---
 dependencies:
   - role: download
-    file: "{{ downloads.kubernetes_kubelet }}"
+    file: "{{ downloads.hyperkube }}"
   - role: kubernetes/secrets
